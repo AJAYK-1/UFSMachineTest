@@ -6,8 +6,8 @@ A MERN stack application that lets users create a CV, preview it as a PDF, and d
 
 ## 🛠 Tech Stack
 
-**Frontend:** React, Axios, React Router, @react-pdf/renderer  
-**Backend:** Node.js, Express, MongoDB, Mongoose
+**Frontend:** React, Axios  
+**Backend:** Node.js, Express, MongoDB
 
 ---
 
@@ -16,8 +16,8 @@ A MERN stack application that lets users create a CV, preview it as a PDF, and d
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/cv-builder.git
-cd cv-builder
+git clone https://github.com/AJAYK-1/UFSMachineTest
+cd UFSMachineTest
 ```
 
 ---
@@ -59,8 +59,7 @@ npm start
 Create a `.env` file inside the **frontend** folder and add:
 
 ```
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
+VITE_HOST_URL = your_host_url
 ```
 
 Frontend will run on:  
